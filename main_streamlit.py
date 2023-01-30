@@ -26,7 +26,7 @@ def generate_password():
     password += random.choice(string.digits)
 
     # special characters
-    password += random.choice(string.punctuation)
+    # password += random.choice(string.punctuation)
 
     for i in range(4):
         password += random.choice(random_set)
